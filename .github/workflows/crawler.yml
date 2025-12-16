@@ -37,7 +37,7 @@ on:
     #
     - cron: "33 * * * *"
 
-  workflow_dispatch:
+ # workflow_dispatch:
 
 concurrency:
   group: crawler-${{ github.ref_name }}
